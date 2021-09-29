@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<title>Justin Shappy</title>
+</head>
+<body background="images/Webpage Backgrond1.jpg">
+	
+<font color="#ffa646" face="Segoe UI" size="4">
+		
+	<div align="center" class="banner" id="banner">
+		<h1><a href="index.html">Justin Shappy</a></h1><h2>Game Programmer</h2>
+	</div>
+	
+	<div class="Carousel" id="carousel">
+		<div align="center" class="carouselSkull">
+		<a href="Project1.html">
+			<div align="center"><img src="images/SkullSoup1.png" alt="Carousel Image One"></div>
+		</a>
+		<a href="Project1.html">
+			<div align="center"><img src="images/SkullSoup2.png" alt="Carousel Image Two"></div>
+		</a>
+		<a href="Project1.html">
+			<div align="center"><img src="images/SkullSoup3.png" alt="Carousel Image Three"></div>
+		</a>
+		</div>
+		
+		<div align="center" class="carouselSpace">
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape1.png" alt="Carousel Image One"></div>
+		</a>
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape2.png" alt="Carousel Image Two"></div>
+		</a>
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape3.png" alt="Carousel Image Three"></div>
+		</a>
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape4.png" alt="Carousel Image Four"></div>
+		</a>
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape5.png" alt="Carousel Image Five"></div>
+		</a>
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape6.png" alt="Carousel Image Five"></div>
+		</a>
+		<a href="Project2.html">
+			<div align="center"><img src="images/SpaceEscape7.png" alt="Carousel Image Five"></div>
+		</a>
+		</div>
+		
+		<div align="center" class="carouselSub">
+		<a href="Project3.html">
+			<div align="center"><img src="images/SubEscape1.png" alt="Carousel Image One"></div>
+		</a>
+		<a href="Project3.html">
+			<div align="center"><img src="images/SubEscape2.png" alt="Carousel Image Two"></div>
+		</a>
+		<a href="Project3.html">
+			<div align="center"><img src="images/SubEscape3.png" alt="Carousel Image Three"></div>
+		</a>
+		<a href="Project3.html">
+			<div align="center"><img src="images/SubEscape4.png" alt="Carousel Image Four"></div>
+		</a>
+		<a href="Project3.html">
+			<div align="center"><img src="images/SubEscape5.png" alt="Carousel Image Five"></div>
+		</a>
+		</div>
+		<div align="center" class="carouselPixel">
+		<a href="Project4.html">
+			<div align="center"><img src="images/PixelRacer1.png" alt="Carousel Image One"></div>
+		</a>
+		<a href="Project4.html">
+			<div align="center"><img src="images/PixelRacer2.png" alt="Carousel Image Two"></div>
+		</a>
+		<a href="Project4.html">
+			<div align="center"><img src="images/PixelRacer3.png" alt="Carousel Image Three"></div>
+		</a>
+		</div>
+	</div>
+	
+	<div align="center" id="content">
+	     <p>I am a programmer enrolled in New England Institute of Technology working on my Bachelor of Science in Game Development and Simulation Programming.<br/><br/> I love the challnge of creating artificial intelligence to control a creature or character.</p>
+    </div>
+	
+	
+	
+	
+	<div align="center" class="navigation">
+    	<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="dev_journal.html">Developer Journal</a></li>
+			<li><a href="resume.html">Résumé</a></li>
+			<li><a href="mailto:Justin.Shappy2298@gmail.com">E-Mail Me</a></li>
+		</ul>
+	</div>
+	
+	</font>
+	
+	<!--
+	<script type="text/javascript" src="jquery-3.3.1.js">	</script>
+	-->
+	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+	
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	
+	<script>
+		$('.Carousel').slick({
+		centerMode: true,
+		centerPadding: '25%',
+		slidesToShow: 1,
+		adaptiveHeight: true,
+		dots: true,
+		swipe: false				
+  });
+	
+		$('.carouselSkull').slick({
+		centerMode: true,
+		centerPadding: '7%',
+		focusOnSelect: true,
+		slidesToShow: 1,
+		pauseOnHover: false,
+		autoplay: true,
+		autoplaySpeed: 2500,
+		arrows: false
+  });
+	
+		$('.carouselSpace').slick({
+		centerMode: true,
+		centerPadding: '7%',
+		focusOnSelect: true,
+		slidesToShow: 1,
+		pauseOnHover: false,
+		autoplay: true,
+		autoplaySpeed: 2750,
+		arrows: false
+  });
+		
+		$('.carouselSub').slick({
+		centerMode: true,
+		centerPadding: '7%',
+		focusOnSelect: true,
+		slidesToShow: 1,
+		pauseOnHover: false,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		arrows: false	
+  });
+		
+		$('.carouselPixel').slick({
+		centerMode: true,
+		centerPadding: '7%',
+		focusOnSelect: true,
+		slidesToShow: 1,
+		pauseOnHover: false,
+		autoplay: true,
+		autoplaySpeed: 3250,
+		arrows: false
+  });
+		
+		
+		
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,35 @@
+#carousel{
+	width: 75%;
+	margin: 0 auto;
+}
+img{
+	width: 95%;
+}
+.download a{
+	color: #ACC18A;
+	text-decoration: none;
+}
+.navigation{
+	width: 100%;
+}
+.navigation ul{
+	float: center;
+	list-style: none;
+}
+.navigation ul li{
+	display: inline-block;
+}
+.navigation ul li a{
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #964E00;
+}
+.resume a{
+	color: #ffa646;
+}.banner a{
+	color: #ffa646;
+}
+.devEntry a{
+	color: #ffa646;
+}
