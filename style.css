@@ -23,13 +23,42 @@ img{
 	display: inline-block;
 	padding: 10px 15px;
 	text-decoration: none;
-	color: #964E00;
+	color: #c7751d;
 }
 .resume a{
 	color: #ffa646;
-}.banner a{
+}
+.resume {
+	margin-left:20%;
+	margin-right:20%;
+}
+.devEntry {
+	margin-left:10%;
+	margin-right:10%;
+}
+.banner a{
 	color: #ffa646;
 }
 .devEntry a{
 	color: #ffa646;
+}
+p {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+body {
+	margin-top: 5%;
+	font-weight: bold;
+}
+h1 {
+	font-weight: bolder;
+}
+ul {
+	font-weight: normal;
+}
+.subList ol {
+	list-style-type: lower-alpha;
+}
+ol {
+	font-weight: normal;
 }
